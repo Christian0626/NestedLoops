@@ -52,7 +52,7 @@ public class NestedLoops {
                                "\nIf you roll 1,2,3 etc in a row. Your result will be displayed.");
             askAgain = input.nextLine();
         } while (askAgain.equalsIgnoreCase("y"));
-        System.out.println("It took " + diceSet + "times to get all dice to be rolled in a row");
+        System.out.println("It took " + diceSet + " times to get all dice to be rolled in a row");
 
 
     }
